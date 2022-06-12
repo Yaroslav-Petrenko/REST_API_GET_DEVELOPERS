@@ -1,0 +1,10 @@
+body {
+	background-color: #f8f8f8;
+	font-family: Nunito;
+	font-size: 16px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}

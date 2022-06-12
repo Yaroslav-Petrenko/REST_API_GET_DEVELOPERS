@@ -1,0 +1,8 @@
+.picture {
+	width: 1170px;
+	height: 650px;
+	background-image: url(../../../images/Rectangle_29.png);
+	/* position: absolute; */
+	/* overflow: hidden; для корректной работы margin-top */
+	overflow: hidden;
+}

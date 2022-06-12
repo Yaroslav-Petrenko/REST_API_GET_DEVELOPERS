@@ -1,0 +1,83 @@
+.form-container {
+	margin: 0 auto;
+	width: 390px;
+}
+
+.post-form {
+	margin-top: 35px;
+	display: flex;
+	/* justify-content: center; */
+	flex-wrap: wrap;
+	/* width: 390px; */
+
+	/* flex-wrap: wrap;
+	align-items: center;
+	overflow: hidden; */
+	/* text-align: center; */
+
+}
+
+.post-input-block {
+	/* width: 390px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap; */
+
+}
+.post-radio-block {
+	width: 100%;
+	/* text-align: left; */
+	margin-top: 11px;
+}
+
+.input {
+	/* Style for "Rectangle" */
+	display: block;
+	width: 380px;
+	height: 54px;
+	border-radius: 4px;
+	border: 1px solid #d0cfcf;
+	padding-left: 16px;
+
+	/* Style for "Your name" */
+		/* Text style: Normal */
+
+		color: #7e7e7e;
+		font-family: Nunito;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 26px;
+
+		
+
+}
+.input:not(:first-child) {
+margin-top: 50px;
+}
+
+#label {
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.form-input-radio {
+	/* Style for "Ellipse 27" */
+		/* width: 20px;
+		height: 20px;
+		border: 1px solid #00bdd3; */
+}
+.form-input-radio-title {
+		margin-top: 43px;
+}
+
+.form-input-file {
+	margin-top: 11px;
+}
+
+#form-input-submit {
+	margin-top: 11px;
+	display: block;
+}

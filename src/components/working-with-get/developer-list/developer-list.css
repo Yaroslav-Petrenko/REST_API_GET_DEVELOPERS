@@ -1,0 +1,51 @@
+.developer-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 35px;
+}
+
+.item-block {
+		width: 370px;
+		height: 254px;
+		border-radius: 10px;
+		background-color: #ffffff;
+		overflow: hidden;
+	
+}
+
+/* функция 3n-2 позволяет выбирать элементы 1, 4, 7, 10 и т.д. */
+.item-block:not(:nth-child(3n-2)) {
+		margin-left: 29px;
+		margin-bottom: 29px;
+
+}
+
+.item-picture {
+	display: block;
+	margin: 20px auto 0; 
+}
+
+.item-title {
+		width: 330px;
+		height: 26px;
+		color: rgba(0, 0, 0, 0.87);
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		margin: 20px auto 0;  
+}
+
+.item-text {
+		width: 330px;
+		height: 74px;
+		color: rgba(0, 0, 0, 0.87);
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		margin: 20px auto 0;
+}
+
+.item-phone {
+	text-align: center;
+	margin: -20px auto 0;
+}
